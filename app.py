@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "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"
+openai.api_key = "**********"
 
 def Ans_ChatGPT(question):
     messages = [
