@@ -13,7 +13,6 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 from langchain.chains import ConversationalRetrievalChain
 
-# ここにOpenAIから取得したキーを設定します。
 os.environ["OPENAI_API_KEY"] = '*****'
 
 from google.colab import drive
